@@ -1,0 +1,30 @@
+{
+  "name": "minha-app-objetos",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "sqlite": "^5.0.1",
+    "sqlite3": "^5.1.6",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "dev": "nodemon backend/app.js"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "type": "module"
+}
